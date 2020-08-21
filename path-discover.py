@@ -3,7 +3,7 @@ import sys
 
 
 def path_finder(url):
-    extensions = ['php', 'html']
+    
     fp = open('paths.txt', 'r')
     paths = fp.readlines()
     paths = [x.strip() for x in paths]
